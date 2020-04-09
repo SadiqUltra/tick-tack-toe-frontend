@@ -37,7 +37,7 @@ class TicTacToe extends Component {
                     this.setState({ isWin })
                 }else if (step_no >= 9){
                     message = "MATCH DRAW! Player "+ (2 - step_no % 2 ) + " put " + xo + " on column:" + (c+1) + ", row:" + (r+1)
-                    this.setState({ isDraw: false })
+                    this.setState({ isDraw: true })
                 }
             }
 
