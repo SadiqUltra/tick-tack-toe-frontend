@@ -37,7 +37,7 @@ import {x,o} from "./constants"
  */
 
 // returns false/"x"/"o"
-let checkWin = (board) => {
+export const checkWin = (board) => {
 
     for (let i = 0; i < 3; i++){
         // console.log(i, ':', board[i])
@@ -78,5 +78,10 @@ let checkWin = (board) => {
     }
 
     return false
+}
+
+export const checkWinBeforePush = (board, c,r, xo) => {
+    board[c][r] = xo
+    return checkWin(board)
 }
 

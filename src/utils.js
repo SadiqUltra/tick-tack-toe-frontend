@@ -7,7 +7,7 @@ export const getSessionKey = () => {
 }
 
 export const resetSessionKey = () => {
-    const key = Math.random().toString(36).substring(2)
+    const key = Math.random().toString(36).substring(2) + Date.now()
     localStorage.setItem('SESSION_KEY', key)
 
     return key
