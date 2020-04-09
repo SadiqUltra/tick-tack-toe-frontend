@@ -1,3 +1,5 @@
+export const graphqlApiEndPoint = 'http://localhost:8080/v1/graphql'
+
 export const x = "X"
 export const o = "O"
 

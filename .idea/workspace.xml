@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133bac8e-bbf4-4687-984c-c464bfa19427" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/GraphQL.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameEngine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameEngine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,11 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -68,7 +75,7 @@
       <updated>1586291642015</updated>
       <workItem from="1586291643306" duration="3153000" />
       <workItem from="1586323670358" duration="2105000" />
-      <workItem from="1586393258935" duration="2831000" />
+      <workItem from="1586393258935" duration="6576000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1586323883966</created>
@@ -105,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586399872032</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added: Redux">
+      <created>1586400100421</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586400100421</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,13 +146,18 @@
     <MESSAGE value="Added: Layout" />
     <MESSAGE value="Added: Action" />
     <MESSAGE value="Added: Reducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added: Reducer" />
+    <MESSAGE value="Added: Redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added: Redux" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1586399871870">
+    <state x="627" y="412" key="#com.intellij.ide.util.TreeDirectoryChooserDialog" timestamp="1586403238162">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586399871869" />
+    <state x="627" y="412" key="#com.intellij.ide.util.TreeDirectoryChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1586403238162" />
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1586400100289">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586400100289" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586394146785">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
