@@ -6,21 +6,45 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          <div>Player 1: X, Player 2: O</div>
+          <p>Player 1's turn</p>
+        <div className="Board">
+            <div className="Board-Column" >
+                <div className="Board-Row">X</div>
+                <div className="Board-Row">X</div>
+                <div className="Board-Row">X</div>
+            </div>
+            <div className="Board-Column" >
+                <div className="Board-Row">X</div>
+                <div className="Board-Row">X</div>
+                <div className="Board-Row">X</div>
+            </div>
+            <div className="Board-Column" >
+                <div className="Board-Row">X</div>
+                <div className="Board-Row">X</div>
+                <div className="Board-Row">X</div>
+            </div>
+        </div>
+
+          <div className="Logs">
+                <div className='Logs-Text'>Log Text</div>
+                <div className='Logs-Text'>Log Text</div>
+                <div className='Logs-Text'>Log Text</div>
+                <div className='Logs-Text'>Log Text</div>
+                <div className='Logs-Text'>Log Text</div>
+                <div className='Logs-Text'>Log Text</div>
+                <div className='Logs-Text'>Log Text</div>
+                <div className='Logs-Text'>Log Text</div>
+                <div className='Logs-Text'>Log Text</div>
+
+          </div>
       </header>
     </div>
   );
+}
+
+const style ={
+
 }
 
 export default App;
