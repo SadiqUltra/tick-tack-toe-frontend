@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="133bac8e-bbf4-4687-984c-c464bfa19427" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameEngine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameEngine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TicTacToe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TicTacToe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphQL.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphQL.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
       <updated>1586291642015</updated>
       <workItem from="1586291643306" duration="3153000" />
       <workItem from="1586323670358" duration="2105000" />
-      <workItem from="1586393258935" duration="20564000" />
+      <workItem from="1586393258935" duration="26723000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1586323883966</created>
@@ -159,7 +157,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586426118343</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fixed: 1 step extra error">
+      <created>1586431448541</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1586431448542</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added: Test for Game Engine">
+      <created>1586432893443</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1586432893443</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,21 +205,23 @@
     <MESSAGE value="Added: Game state" />
     <MESSAGE value="Added: Game Step" />
     <MESSAGE value="Added: Reset Button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added: Reset Button" />
+    <MESSAGE value="Fixed: 1 step extra error" />
+    <MESSAGE value="Added: Test for Game Engine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added: Test for Game Engine" />
   </component>
   <component name="WindowStateProjectService">
     <state x="627" y="412" key="#com.intellij.ide.util.TreeDirectoryChooserDialog" timestamp="1586403238162">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="627" y="412" key="#com.intellij.ide.util.TreeDirectoryChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1586403238162" />
-    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1586431448402">
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1586432893314">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586431448402" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586394146785">
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586432893314" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586443107368">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586394146785" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586443107368" />
     <state x="386" y="207" width="667" height="486" key="find.popup" timestamp="1586325174152">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

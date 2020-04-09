@@ -30,7 +30,6 @@ export const getAllSteps = (key) => {
         query: gql`
             {
                 step(where: {key: {_eq:  "${key}"}}) {
-                    key
                     message
                     c
                     r
