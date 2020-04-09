@@ -2,10 +2,13 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import '../App.css'
 import { bootSteps, bootLogs, pushStep } from './../actions'
-import {SESSION_KEY} from "../constants";
+import {getSessionKey, resetSessionKey} from "../utils";
 
+
+let SESSION_KEY = getSessionKey()
 
 class TicTacToe extends Component {
+
 
 
     componentDidMount(){
@@ -17,8 +20,16 @@ class TicTacToe extends Component {
         if (this.props.board[c][r] === ""){
             const step_no = this.props.steps.length + 1
             const xo = step_no % 2 === 1 ? "X" : "O"
-            this.props.pushStep(SESSION_KEY, `message: ${c},${r},${xo}`, c,r, xo, step_no)
+            const message = "Player "+ (2 - step_no % 2 ) + " put " + xo + " on column:" + (c+1) + ", row:" + (r+1)
+            this.props.pushStep(SESSION_KEY, message, c,r, xo, step_no)
         }
+    }
+
+
+    resetBoard() {
+        SESSION_KEY = resetSessionKey()
+        this.props.bootSteps(SESSION_KEY)
+        this.props.bootLogs(SESSION_KEY)
     }
 
     render(){
@@ -26,6 +37,10 @@ class TicTacToe extends Component {
         return (
             <div className="TicTacToe">
                 <header className="TicTacToe-header">
+                    <button
+                        type="button"
+                        onClick={(e)=> this.resetBoard()}
+                    >Reset</button>
                     <div>Player 1: X, Player 2: O</div>
                     <p>Player &nbsp;
                          {this.props.board && this.props.board.length % 2 === 0 && (1)}
