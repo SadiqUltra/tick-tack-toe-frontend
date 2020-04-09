@@ -1,6 +1,4 @@
-export const ADD_STEP = 'ADD_STEP'
-export const RETRIEVE_ALL_STEPS = 'RETRIEVE_ALL_STEPS'
-export const RETRIEVE_LOGS = 'RETRIEVE_LOGS'
+import {ADD_STEP, RETRIEVE_ALL_STEPS, RETRIEVE_LOGS} from "../../constants";
 
 export function addStep ({ key, message, c,r, xo, step_no }){
     return {
