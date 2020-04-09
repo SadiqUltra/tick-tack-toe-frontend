@@ -7,19 +7,10 @@ import {SESSION_KEY} from "../constants";
 
 class TicTacToe extends Component {
 
-    state = {
-        board: [
-            [null, null, null],
-            [null, null, null],
-            [null, null, null],
-        ]
-    }
 
     componentDidMount(){
         this.props.bootSteps(SESSION_KEY)
         this.props.bootLogs(SESSION_KEY)
-
-        console.debug(this.state.board)
     }
 
     render(){
@@ -30,14 +21,14 @@ class TicTacToe extends Component {
                     <div>Player 1: X, Player 2: O</div>
                     <p>Player 1's turn</p>
                     <div className="Board">
-                        {this.state.board.map((boardColumn, i) =>
+                        {this.props.board && this.props.board.map((boardColumn, i) =>
                             <div key={i} className="Board-Column" >
                                 {boardColumn.map((boardRow, j) =>
                                     <div
                                         key={j}
                                         className="Board-Row"
                                         onClick={(e)=> console.log(e)}
-                                    >{j +''+ i}</div>
+                                    >{this.props.board[i][j]}</div>
                                 )}
                             </div>
                         )}
@@ -64,6 +55,7 @@ function mapStateToProps ({ steps, logs }) {
     return {
         steps: steps.steps,
         logs: logs.logs,
+        board: steps.board
     }
 }
 

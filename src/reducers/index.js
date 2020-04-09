@@ -16,11 +16,13 @@ function steps(state = initStepState, action){
             return {
                 ...state,
                 steps: action.steps,
+                board: stepsToBoard(action.steps)
             }
         case ADD_STEP:
             return {
                 ...state,
-                steps: state.steps.concat(action.step)
+                steps: state.steps.concat(action.step),
+                board: addStepToBoard(action.step, state.board)
             }
         default:
             return state
@@ -28,15 +30,35 @@ function steps(state = initStepState, action){
 }
 
 function logs(state = initLogState, action){
-    // switch (action.type) {
-    //     case RETRIEVE_LOGS:
+    switch (action.type) {
+        case RETRIEVE_LOGS:
             return {
                 ...state,
                 logs: action.logs,
             }
-    //     default:
-    //         return state
-    // }
+        default:
+            return state
+    }
+}
+
+function stepsToBoard(steps) {
+    let board = [
+        ["", "", ""],
+        ["", "", ""],
+        ["", "", ""],
+    ]
+
+    steps.map(step => {
+        board[step.c][step.r] = step.xo
+    })
+    // console.debug(board)
+    return board
+}
+
+function addStepToBoard(step, board) {
+    board[step.c][step.r] = step.xo
+    // console.debug(board)
+    return board
 }
 
 export default combineReducers({

@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="133bac8e-bbf4-4687-984c-c464bfa19427" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GraphQL.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphQL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameEngine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameEngine.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TicTacToe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TicTacToe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +71,7 @@
       <updated>1586291642015</updated>
       <workItem from="1586291643306" duration="3153000" />
       <workItem from="1586323670358" duration="2105000" />
-      <workItem from="1586393258935" duration="11653000" />
+      <workItem from="1586393258935" duration="12950000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1586323883966</created>
@@ -130,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586413403688</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="init: TicTacToe">
+      <created>1586418651534</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586418651534</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,17 +166,18 @@
     <MESSAGE value="Added: Redux" />
     <MESSAGE value="Added: GraphQL via apollo" />
     <MESSAGE value="Added: Redux Trunk" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added: Redux Trunk" />
+    <MESSAGE value="init: TicTacToe" />
+    <option name="LAST_COMMIT_MESSAGE" value="init: TicTacToe" />
   </component>
   <component name="WindowStateProjectService">
     <state x="627" y="412" key="#com.intellij.ide.util.TreeDirectoryChooserDialog" timestamp="1586403238162">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="627" y="412" key="#com.intellij.ide.util.TreeDirectoryChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1586403238162" />
-    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1586413403512">
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1586418651387">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586413403512" />
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586418651387" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586394146785">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
