@@ -32,8 +32,8 @@ export function bootSteps(key) {
 
     return function (dispatch) {
 
-        return getAllLogs(key)
-            .then(json => dispatch(retrieveLogs(json)) )
+        return getAllSteps(key)
+            .then(json => dispatch(retrieveAllStep(json)) )
     }
 }
 
@@ -42,8 +42,8 @@ export function bootLogs(key) {
 
     return function (dispatch) {
 
-        return getAllSteps(key)
-            .then(json => dispatch(retrieveAllStep(json)) )
+        return getAllLogs(key)
+            .then(json => dispatch(retrieveLogs(json)) )
     }
 }
 

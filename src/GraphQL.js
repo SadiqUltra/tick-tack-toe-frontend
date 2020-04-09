@@ -39,7 +39,7 @@ export const getAllSteps = (key) => {
     return client.query({
         query: gql`
             {
-                step(where: {key: {_eq: key}}) {
+                step(where: {key: {_eq:  "${key}"}}) {
                     key
                     message
                     c
@@ -50,6 +50,10 @@ export const getAllSteps = (key) => {
                 }
             }
         `
+    })
+    .then(res => {
+        console.log(res)
+        return res.data.step
     })
 }
 
