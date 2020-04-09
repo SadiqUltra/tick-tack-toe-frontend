@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133bac8e-bbf4-4687-984c-c464bfa19427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <updated>1586291642015</updated>
       <workItem from="1586291643306" duration="3153000" />
       <workItem from="1586323670358" duration="2105000" />
-      <workItem from="1586393258935" duration="27517000" />
+      <workItem from="1586393258935" duration="27998000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1586323883966</created>
@@ -184,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586456574807</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added: Docker">
+      <created>1586457320116</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1586457320116</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +229,8 @@
     <MESSAGE value="Added: Test for Game Engine" />
     <MESSAGE value="Added: Readme" />
     <MESSAGE value="Updated: Readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated: Readme" />
+    <MESSAGE value="Added: Docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added: Docker" />
   </component>
   <component name="WindowStateProjectService">
     <state x="433" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586457182864">
@@ -233,14 +241,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="627" y="412" key="#com.intellij.ide.util.TreeDirectoryChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1586403238162" />
-    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1586456574696">
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1586457320015">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586456574696" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586456578511">
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586457320015" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586457322926">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586456578511" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586457322926" />
     <state x="386" y="207" width="667" height="486" key="find.popup" timestamp="1586325174152">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

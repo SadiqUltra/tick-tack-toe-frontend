@@ -17,6 +17,14 @@ Run those command bellow
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+## Docker
+Alternatively we can install via docker too. In `tick-tack-toe-frontend` folder run those command 
+
+`$ docker build -t react-webapp . `
+
+`$ docker run -it -p 8000:80 react-webapp`
+
+Once the container is running, you can open [http://localhost:8000](http://localhost:8000) and you'll be able to access the React app running inside the Docker container
 
 ## Test
 Run those command bellow
