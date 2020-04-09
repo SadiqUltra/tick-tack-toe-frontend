@@ -1,4 +1,4 @@
-import {ADD_STEP, RETRIEVE_ALL_STEPS, RETRIEVE_LOGS} from "../../constants";
+import {ADD_STEP, RETRIEVE_ALL_STEPS, RETRIEVE_LOGS} from "../constants";
 
 export function addStep ({ key, message, c,r, xo, step_no }){
     return {

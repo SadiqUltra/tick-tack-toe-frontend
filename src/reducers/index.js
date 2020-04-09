@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux'
-import {ADD_STEP, RETRIEVE_ALL_STEPS, RETRIEVE_LOGS} from "../../constants";
+import {ADD_STEP, RETRIEVE_ALL_STEPS, RETRIEVE_LOGS} from "../constants";
 
 
 const initStepState = {

@@ -1,4 +1,4 @@
-import {x,o} from "../constants"
+import {x,o} from "./constants"
 /*
 
 [
