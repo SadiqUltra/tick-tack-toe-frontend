@@ -8,10 +8,20 @@ import {graphqlApiEndPoint} from "./constants";
 const httpLink = createHttpLink({
     uri: graphqlApiEndPoint
 })
-
+const defaultOptions = {
+    // watchQuery: {
+    //     fetchPolicy: 'no-cache',
+    //     errorPolicy: 'ignore',
+    // },
+    query: {
+        fetchPolicy: 'no-cache',
+        errorPolicy: 'all',
+    },
+}
 const client = new ApolloClient({
     link: httpLink,
-    cache: new InMemoryCache()
+    cache: new InMemoryCache(),
+    defaultOptions: defaultOptions
 })
 
 
@@ -38,9 +48,9 @@ export const getAllSteps = (key) => {
 }
 
 export const insertStep = (key, message, c,r, xo, step_no) => {
-    return client.query({
-        query: gql`
-            {
+    return client.mutate({
+        mutation: gql`
+            mutation AddStep{
                 insert_step(objects: {
                     key: "${key}",
                     message: "${message}",
@@ -50,13 +60,18 @@ export const insertStep = (key, message, c,r, xo, step_no) => {
                     xo: "${xo}"
                 }) {
                     affected_rows
-                }
+                  }
             }
         `
     })
 }
 
+
+
 export const getAllLogs = (key) => {
+
+    console.debug('getAllLogs...')
+
     return client.query({
         query: gql`
             {

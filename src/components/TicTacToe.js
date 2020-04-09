@@ -13,13 +13,24 @@ class TicTacToe extends Component {
         this.props.bootLogs(SESSION_KEY)
     }
 
+    boardCRPressed(c,r){
+        if (this.props.board[c][r] === ""){
+            const step_no = this.props.steps.length + 1
+            const xo = step_no % 2 === 1 ? "X" : "O"
+            this.props.pushStep(SESSION_KEY, `message: ${c},${r},${xo}`, c,r, xo, step_no)
+        }
+    }
+
     render(){
 
         return (
             <div className="TicTacToe">
                 <header className="TicTacToe-header">
                     <div>Player 1: X, Player 2: O</div>
-                    <p>Player 1's turn</p>
+                    <p>Player &nbsp;
+                         {this.props.board && this.props.board.length % 2 === 0 && (1)}
+                         {this.props.board && this.props.board.length % 2 !== 0 && (2)}
+                        's turn</p>
                     <div className="Board">
                         {this.props.board && this.props.board.map((boardColumn, i) =>
                             <div key={i} className="Board-Column" >
@@ -27,7 +38,7 @@ class TicTacToe extends Component {
                                     <div
                                         key={j}
                                         className="Board-Row"
-                                        onClick={(e)=> console.log(e)}
+                                        onClick={(e)=> this.boardCRPressed(i,j)}
                                     >{this.props.board[i][j]}</div>
                                 )}
                             </div>

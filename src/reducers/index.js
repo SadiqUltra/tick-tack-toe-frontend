@@ -56,8 +56,9 @@ function stepsToBoard(steps) {
 }
 
 function addStepToBoard(step, board) {
+    console.debug(step)
+    console.debug(board)
     board[step.c][step.r] = step.xo
-    // console.debug(board)
     return board
 }
 

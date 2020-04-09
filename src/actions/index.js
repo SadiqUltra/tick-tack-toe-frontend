@@ -4,11 +4,13 @@ import {getAllLogs, getAllSteps, insertStep} from "../GraphQL";
 export function addStep (key, message, c,r, xo, step_no){
     return {
         type: ADD_STEP,
-        key,
-        message,
-        c, r,
-        xo,
-        step_no
+        step: {
+            key,
+            message,
+            c, r,
+            xo,
+            step_no
+        }
     }
 }
 
@@ -50,6 +52,10 @@ export function bootLogs(key) {
 // add post
 export function pushStep(key, message, c,r, xo, step_no) {
     return function (dispatch){
-        return insertStep(key, message, c,r, xo, step_no).then(json => dispatch(addStep(key, message, c,r, xo, step_no)) )
+        return insertStep(key, message, c,r, xo, step_no).then(json => {
+            dispatch(addStep(key, message, c,r, xo, step_no))
+            getAllLogs(key)
+                .then(json => dispatch(retrieveLogs(json)) )
+        } )
     }
 }
