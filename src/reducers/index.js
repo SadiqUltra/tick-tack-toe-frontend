@@ -28,15 +28,15 @@ function steps(state = initStepState, action){
 }
 
 function logs(state = initLogState, action){
-    switch (action.type) {
-        case RETRIEVE_LOGS:
+    // switch (action.type) {
+    //     case RETRIEVE_LOGS:
             return {
                 ...state,
                 logs: action.logs,
             }
-        default:
-            return state
-    }
+    //     default:
+    //         return state
+    // }
 }
 
 export default combineReducers({

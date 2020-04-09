@@ -15,26 +15,6 @@ const client = new ApolloClient({
 })
 
 
-
-// client.query({
-//     query: gql`
-//         {
-//             step(where: {key: {_eq: "23f23f23f23f23f3ff32f23f23f23f23f23f2f323f"}}) {
-//                 c
-//                 key
-//                 message
-//                 r
-//                 step_no
-//                 timestamp
-//                 xo
-//             }
-//         }
-//     `
-// })
-//
-// .then(response => console.log(response.data))
-
-
 export const getAllSteps = (key) => {
     return client.query({
         query: gql`
@@ -62,12 +42,12 @@ export const insertStep = (key, message, c,r, xo, step_no) => {
         query: gql`
             {
                 insert_step(objects: {
-                    key: key,
-                    message: message,
-                    c: c,
-                    r: r,
-                    step_no: step_no,
-                    xo: xo
+                    key: "${key}",
+                    message: "${message}",
+                    c: "${c}",
+                    r: "${r}",
+                    step_no: "${step_no}",
+                    xo: "${xo}"
                 }) {
                     affected_rows
                 }
@@ -80,11 +60,15 @@ export const getAllLogs = (key) => {
     return client.query({
         query: gql`
             {
-                step(where: {key: {_eq: key}}) {
+                step(where: {key: {_eq: "${key}"}}) {
                     message
                     timestamp
                 }
             }
         `
+    })
+    .then(res => {
+        console.log(res)
+        return res.data.step
     })
 }
