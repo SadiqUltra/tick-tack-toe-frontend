@@ -1,3 +1,5 @@
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/eMEHXF4EBU0/0.jpg)](https://www.youtube.com/watch?v=eMEHXF4EBU0)
+
 ## Installation 
 Run those command bellow
 
@@ -24,4 +26,4 @@ Run those command bellow
 
 Note: make sure backend in running
 
-Backend repository link: [https://github.com/SadiqUltra/tick-tack-toe-backend/tree/master](https://github.com/SadiqUltra/tick-tack-toe-backend/tree/master)
+Backend repository link: [https://github.com/SadiqUltra/tick-tack-toe-backend](https://github.com/SadiqUltra/tick-tack-toe-backend)

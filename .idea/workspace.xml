@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="133bac8e-bbf4-4687-984c-c464bfa19427" name="Default Changelist" comment="">
+    <list default="true" id="133bac8e-bbf4-4687-984c-c464bfa19427" name="Default Changelist" comment="Updated: Readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GraphQL.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphQL.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <updated>1586291642015</updated>
       <workItem from="1586291643306" duration="3153000" />
       <workItem from="1586323670358" duration="2105000" />
-      <workItem from="1586393258935" duration="26723000" />
+      <workItem from="1586393258935" duration="27291000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1586323883966</created>
@@ -171,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586432893443</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added: Readme">
+      <created>1586456018137</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1586456018137</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,21 +213,22 @@
     <MESSAGE value="Added: Reset Button" />
     <MESSAGE value="Fixed: 1 step extra error" />
     <MESSAGE value="Added: Test for Game Engine" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added: Test for Game Engine" />
+    <MESSAGE value="Added: Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added: Readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="627" y="412" key="#com.intellij.ide.util.TreeDirectoryChooserDialog" timestamp="1586403238162">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="627" y="412" key="#com.intellij.ide.util.TreeDirectoryChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1586403238162" />
-    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1586432893314">
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1586456230304">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586432893314" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586443107368">
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586456230304" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586456021153">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586443107368" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586456021153" />
     <state x="386" y="207" width="667" height="486" key="find.popup" timestamp="1586325174152">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
