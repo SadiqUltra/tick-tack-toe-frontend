@@ -37,5 +37,6 @@ Note: make sure backend in running
 Backend repository link: [https://github.com/SadiqUltra/tick-tack-toe-backend](https://github.com/SadiqUltra/tick-tack-toe-backend)
 
 ## Motivation
-Even Chicken is playing ! just kiding
+Even Chicken can play! just kiding
+
 [https://www.nytimes.com/video/nyregion/100000001595360/tick-tack-toe-playing-chicken.html](https://www.nytimes.com/video/nyregion/100000001595360/tick-tack-toe-playing-chicken.html)
