@@ -4,6 +4,7 @@ import '../App.css'
 import { bootSteps, bootLogs, pushStep } from './../actions'
 import {getSessionKey, resetSessionKey} from "../utils";
 import {checkWin, checkWinBeforePush} from "../GameEngine";
+import LogText from "./LogText";
 
 
 let SESSION_KEY = getSessionKey()
@@ -99,16 +100,7 @@ class TicTacToe extends Component {
                         )}
                     </div>
 
-                    <p className='Logs-Text'>Log Text</p>
-                    <div className="Logs">
-
-                        {this.props.logs && this.props.logs.map((log,key) =>{
-                                return (
-                                    <div key={key} className='Logs-Text'>{log.message}</div>
-                                )
-                            }
-                        )}
-                    </div>
+                    <LogText logs={this.props.logs} />
             </header>
         </div>
         )
